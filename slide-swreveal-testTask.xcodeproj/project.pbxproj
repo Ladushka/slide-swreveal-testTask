@@ -14,6 +14,7 @@
 		842285B41D377ED800E88C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842285B31D377ED800E88C36 /* Assets.xcassets */; };
 		842285B71D377ED800E88C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842285B51D377ED800E88C36 /* LaunchScreen.storyboard */; };
 		842285C31D37A1CE00E88C36 /* NavigationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842285C21D37A1CE00E88C36 /* NavigationTableViewController.m */; };
+		842285C61D37C3FF00E88C36 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842285C51D37C3FF00E88C36 /* TestViewController.m */; };
 		D7A480C5AB0879E92C31AFBF /* Pods_slide_swreveal_testTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8FC23253AE7ED3632FB3E2 /* Pods_slide_swreveal_testTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		842285B81D377ED800E88C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842285C11D37A1CE00E88C36 /* NavigationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTableViewController.h; sourceTree = "<group>"; };
 		842285C21D37A1CE00E88C36 /* NavigationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTableViewController.m; sourceTree = "<group>"; };
+		842285C41D37C3FF00E88C36 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		842285C51D37C3FF00E88C36 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				842285A71D377ED800E88C36 /* Supporting Files */,
 				842285C11D37A1CE00E88C36 /* NavigationTableViewController.h */,
 				842285C21D37A1CE00E88C36 /* NavigationTableViewController.m */,
+				842285C41D37C3FF00E88C36 /* TestViewController.h */,
+				842285C51D37C3FF00E88C36 /* TestViewController.m */,
 			);
 			path = "slide-swreveal-testTask";
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				842285C31D37A1CE00E88C36 /* NavigationTableViewController.m in Sources */,
 				842285AC1D377ED800E88C36 /* AppDelegate.m in Sources */,
 				842285A91D377ED800E88C36 /* main.m in Sources */,
+				842285C61D37C3FF00E88C36 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
