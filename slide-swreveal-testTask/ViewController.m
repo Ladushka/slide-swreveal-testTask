@@ -7,16 +7,32 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+@import GoogleMaps;
+@interface ViewController (){
+    GMSMapView *mapView_;
+}
 
 @end
 
 @implementation ViewController
-
+@synthesize mapLabel;
+@synthesize mapName;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    mapLabel.text = mapName;
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:55.182668                                                            longitude:30.202229
+                                                                 zoom:8];
+    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    if([mapName compare: @"satellite"]==0){
+    mapView_.mapType = kGMSTypeSatellite;
+    }else if([mapName compare: @"sheme"]==0){
+        mapView_.mapType = kGMSTypeNormal;
+    }else if ([mapName compare: @"hybrid"]==0){
+        mapView_.mapType = kGMSTypeHybrid;
+    }
+    
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
