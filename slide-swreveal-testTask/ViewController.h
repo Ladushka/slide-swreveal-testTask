@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "NavigationTableViewController.h"
+
 @import GoogleMaps;
+
 @interface ViewController : UIViewController
-@property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
+
 @property (nonatomic, strong) IBOutlet UILabel *mapLabel;
 @property (nonatomic, strong) NSString *mapName;
+
 @end
 

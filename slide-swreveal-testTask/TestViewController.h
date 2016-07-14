@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TestViewController : UIViewController
+
 @property(weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
+
 @end
